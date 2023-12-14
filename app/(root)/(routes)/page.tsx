@@ -12,10 +12,5 @@ export default function SetUpPage() {
       onOpen()
     }
   },[onOpen,isOpen])
-  return (
-    <div className="h-screen">
-      root page
-      
-    </div>
-  )
+  return null
 }
