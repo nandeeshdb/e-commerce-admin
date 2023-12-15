@@ -11,9 +11,9 @@ function MainNav(
     const params = useParams();
     const routes =[
         {
-            href:`/${params.storedId}/settings`,
+            href:`/${params.storeId}/settings`,
             label:'Settings',
-            active:pathname===`/${params.storedId}/settings`
+            active:pathname===`/${params.storeId}/settings`
         }
     ]
 
