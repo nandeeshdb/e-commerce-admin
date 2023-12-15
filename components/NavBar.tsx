@@ -23,7 +23,7 @@ async function NavBar() {
             <div>
                 <StoreSwitcher items={stores}/>
             </div>
-            <div>
+            <div className="ml-7">
                 <MainNav />
 
             </div>
