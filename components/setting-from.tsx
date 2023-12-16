@@ -15,6 +15,7 @@ import toast from "react-hot-toast"
 import { redirect, useParams,useRouter } from "next/navigation"
 import { AlertModal } from "./modals/alert-modal"
 import { ApiAlert } from "./ui/api-alert"
+import { Origin } from "@/hooks/use-origin"
 
 
 interface SettingFormProps{
@@ -33,6 +34,7 @@ const SettingForm:React.FC<SettingFormProps>=({initialData})=>{
   const[loading,setLoading] = useState(false)
   const params = useParams();
   const route = useRouter()
+  const origin =Origin()
 
   const form = useForm<SettingFormValue>({
     resolver:zodResolver(formSchema),
