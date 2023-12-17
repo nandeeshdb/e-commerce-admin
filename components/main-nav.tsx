@@ -21,6 +21,11 @@ function MainNav(
             active:pathname===`/${params.storeId}/billboards`
         } ,
         {
+            href:`/${params.storeId}/categories`,
+            label:'Categories',
+            active:pathname===`/${params.storeId}/categories`
+        } ,
+        {
             href:`/${params.storeId}`,
             label:'Over View',
             active:pathname===`/${params.storeId}`
