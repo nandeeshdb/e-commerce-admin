@@ -121,7 +121,7 @@ const CategoryForm:React.FC<CategoryFormProps>=({initialData,billboards})=>{
           name="name"
           render={({field})=>(
             <FormItem>
-              <FormLabel>Bill Board</FormLabel>
+              <FormLabel>Category name</FormLabel>
               <FormControl>
               <Input placeholder="enter category name" disabled={loading} {...field}/>
               </FormControl>
