@@ -34,7 +34,7 @@ const SizeClient:React.FC<SizeProps>=({data})=>{
 
     </div>
     <Separator />
-    <DataTable searchKey='label' columns={columns} data={data}/>
+    <DataTable searchKey='name' columns={columns} data={data}/>
     <Heading title="Api list" description="Api list for description" />
     <Separator />
     <ApiList entityName="sizes" entityId="sizes"/>
